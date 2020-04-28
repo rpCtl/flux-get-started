@@ -11,7 +11,7 @@ spec:
   releaseName: mongodb
   chart:
     repository: https://charts.bitnami.com/bitnami
-    name: bitnami/mongodb
+    name: mongodb
     version: 7.13.0
   values:
     image:
