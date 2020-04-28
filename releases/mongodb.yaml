@@ -10,9 +10,9 @@ metadata:
 spec:
   releaseName: mongodb
   chart:
-    repository: https://kubernetes-charts.storage.googleapis.com/
-    name: mongodb
-    version: 7.6.3
+    repository: https://charts.bitnami.com/bitnami
+    name: bitnami/mongodb
+    version: 7.13.0
   values:
     image:
       repository: bitnami/mongodb
